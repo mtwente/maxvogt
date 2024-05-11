@@ -1,10 +1,11 @@
-display_name,stub,dropdown_parent
-Home,/,
-Sammlung,/browse.html,
-Themen,/subjects.html,
-Orte,/locations.html,
-Karte,/map.html,
-Zeitachse,/timeline.html,
-Daten,/data.html,
-Bibliographie,https://www.zotero.org/groups/5400359/sbb-max-vogt
-Über,/about.html,
+display_name,stub,dropdown_parent,external_link
+Collection,/browse.html,
+Subjects,/subjects.html,
+Locations,/locations.html,
+Map,/map.html,
+Timeline,/timeline.html,
+Data,,
+Metadata,/data.html,Data
+Source Code,https://github.com/mtwente/maxvogt,Data,true
+Bibliography,https://www.zotero.org/groups/5400359/sbb-max-vogt,,true
+About,/about.html,

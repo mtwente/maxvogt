@@ -1,9 +1,10 @@
 display_name,stub,dropdown_parent
 Home,/,
-Browse,/browse.html,
-Subjects,/subjects.html,
-Locations,/locations.html,
-Map,/map.html,
-Timeline,/timeline.html,
-Data,/data.html,
-About,/about.html,
+Sammlung,/browse.html,
+Themen,/subjects.html,
+Orte,/locations.html,
+Karte,/map.html,
+Zeitachse,/timeline.html,
+Daten,/data.html,
+Bibliographie,https://www.zotero.org/groups/5400359/sbb-max-vogt
+Über,/about.html,

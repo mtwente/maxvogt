@@ -50,10 +50,10 @@ metadata: rekingen_latlong
 #   Enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
 #   To remove the branding, comment out these values, or delete them. 
 #
-# organization-name: "Center for Digital Inquiry and Learning (CDIL)"
-# organization-link: https://cdil.lib.uidaho.edu/
-# organization-logo-banner: https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png
-# organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
+organization-name: "maxvogt"
+organization-link: https://mtwente.github.io/maxvogt/
+organization-logo-banner: assets/img/sbb-logo_simple.svg
+organization-logo-nav: assets/img/sbb-logo_simple.svg
 
 ##########
 # ROBOTS EXCLUDE

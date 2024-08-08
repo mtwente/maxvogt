@@ -3,7 +3,10 @@ title,Title,,,DCTERMS.title,headline
 creator,Creator,,,DCTERMS.creator,creator
 date,Date Created,,,DCTERMS.date,dateCreated
 description,Description,,,DCTERMS.description,description
+building_type,Building Type,true,,,,
 subject,Subjects,true,,DCTERMS.subject,keywords
+conservation_state,Conservation State,true,,,,
+bibliography,Bibliography,,true,,
 location,Location,,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,

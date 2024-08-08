@@ -1,7 +1,7 @@
 field,display_name,btn,hidden,sort_name
+location,Location,true
 building_type,Type,true,,,
 creator,Creator,,,
-location,Location,true
 date,Built in,,,Date
 subject,Tags,,true
 identifier,,,true,Identifier

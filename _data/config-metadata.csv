@@ -1,19 +1,13 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
-title,Title,,,DCTERMS.title,headline
-creator,Creator,,,DCTERMS.creator,creator
-date,Date Created,,,DCTERMS.date,dateCreated
-description,Description,,,DCTERMS.description,description
 building_type,Building Type,true,,,,
-subject,Subjects,true,,DCTERMS.subject,keywords
+location,Location,true,,,contentLocation
+creator,Creator,,,DCTERMS.creator,creator
+date,Year of Construction,true,,DCTERMS.date,dateCreated
+description,Description,,,DCTERMS.description,description
+subject,Tags,true,,DCTERMS.subject,keywords
 conservation_state,Conservation State,true,,,,
 bibliography,Bibliography,,true,,
-location,Location,,,,contentLocation
-latitude,Latitude,,,,
-longitude,Longitude,,,,
 source,Source,,,,
 identifier,Source Identifier,,,,
-wikidata,Wikidata Item,,,,
-commons,Wikimedia Commons Category,,,,
-type,Type,,,DCTERMS.type,
-format,Format,,,,encodingFormat
+external_resources,External Resources,,true,,,
 rightsstatement,,,,DCTERMS.rights,license

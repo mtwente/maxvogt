@@ -4,4 +4,6 @@ building_type,Type,true,,,
 creator,Creator,,,
 date,Built in,,,Date
 subject,Tags,,true
+space_syntax,Urban Design Perspective,,true
+conservation_state,State of Conservation,,true,
 identifier,,,true,Identifier

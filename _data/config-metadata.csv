@@ -3,10 +3,11 @@ building_type,Building Type,true,,,,
 location,Location,true,,,contentLocation
 creator,Creator,,,DCTERMS.creator,creator
 date,Year of Construction,true,,DCTERMS.date,dateCreated
-description,Description,,,DCTERMS.description,description
 subject,Tags,true,,DCTERMS.subject,keywords
+description,Description,,,DCTERMS.description,description
+space_syntax,Urban Design Features,,,DCTERMS.description,description
 conservation_state,Conservation State,true,,,,
-bibliography,Bibliography,,true,,
+bibliography,Object Bibliography,,true,,
 source,Source,,,,
 identifier,Source Identifier,,,,
 external_resources,External Resources,,true,,,

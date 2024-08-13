@@ -1,10 +1,11 @@
 field,index,display
 title,true,true
 date,true,true
+address,true,true
 creator,true,false
-description,true,true
-space_syntax,true,true
+description,true,false
+space_syntax,true,false
 subject,true,true
-location,true,false
+location,true,true
 building_type,true,true
-conservation_state,true,true
+conservation_state,true,false

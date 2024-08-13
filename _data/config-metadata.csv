@@ -1,14 +1,15 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
-building_type,Building Type,true,,,,
+building_type,Building Type,true,,,
 location,Location,true,,,contentLocation
+address,Address,,,DCTERMS.location,
 creator,Creator,,,DCTERMS.creator,creator
 date,Year of Construction,true,,DCTERMS.date,dateCreated
 subject,Tags,true,,DCTERMS.subject,keywords
 description,Description,,,DCTERMS.description,description
 space_syntax,Urban Design Features,,,DCTERMS.description,description
-conservation_state,Conservation State,true,,,,
+conservation_state,Conservation State,true,,,
 bibliography,Object Bibliography,,true,,
 source,Source,,,,
 identifier,Source Identifier,,,,
-external_resources,External Resources,,true,,,
+external_resources,External Resources,,true,,
 rightsstatement,,,,DCTERMS.rights,license

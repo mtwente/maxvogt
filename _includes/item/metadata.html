@@ -13,20 +13,20 @@
             {% if f.browse_link == "true" %}
             {% assign topics = page[f.field] | split: ";" %}
             {% for t in topics %}
-            <a class="me-3" href="{{ t | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ t | strip }}</a>
+            <a class="btn btn-outline-primary m-1" href="{{ t | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ t | strip }}</a>
             {% endfor %}
             {% elsif f.external_link == "true" %}
             {% if f.field == "external_resources" %}
                 {% assign resources = page[f.field] | split: ";" %}
                 {% for resource in resources %}
                 {% assign parts = resource | strip | split: "|" %}
-                <a href="{{ parts[0] | strip }}" target="_blank" rel="noopener" class="btn btn-secondary m-1">{{ parts[1] | strip }}</a>
+                <a href="{{ parts[0] | strip }}" target="_blank" rel="noopener" class="btn btn-outline-secondary m-1">{{ parts[1] | strip }}</a>
                 {% endfor %}
             {% elsif f.field == "bibliography" %}
                 {% assign bibliographies = page[f.field] | split: ";" %}
                 {% for bibliography in bibliographies %}
                 {% assign parts = bibliography | strip | split: "|" %}
-                <a href="{{ parts[0] | strip }}" target="_blank" rel="noopener" class="btn btn-secondary m-1">{{ parts[1] | strip }}</a>
+                <a href="{{ parts[0] | strip }}" target="_blank" rel="noopener" class="btn btn-outline-secondary m-1">{{ parts[1] | strip }}</a>
                 {% endfor %}
             {% else %}
             <a href="{{ page[f.field] }}" target="_blank" rel="noopener">{{ page[f.field] }}</a>

@@ -2,3 +2,28 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
+
+/* Leaflet Map Marker Colours */
+
+.marker-cluster-small {
+    background-color: rgba(45, 50, 125, 0.6);
+    }
+    .marker-cluster-small div {
+    background-color: rgba(45, 50, 125);
+    color: white;
+    }
+    .marker-cluster-medium {
+    background-color: rgba(162, 0, 19, 0.6);
+    }
+    .marker-cluster-medium div {
+    background-color: rgba(162, 0, 19);
+    color: white;
+    }
+
+    .marker-cluster-large {
+    background-color: rgba(198, 0, 24, 0.6);
+    }
+    .marker-cluster-large div {
+    background-color: rgba(198, 0, 24);
+    color: white;
+    }

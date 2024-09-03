@@ -8,7 +8,7 @@
     <div class="card-body">
         <dl>
             <dt>Preferred Citation:</dt>
-            <dd>"{{ child.title | default: page.title }}", {{ site.title }}, {{ site.organization-name }}</dd>
+            <dd>Twente, Moritz and Luisa Omonsky: {{ page.title }} in {{ page.location }} (Object ID {{ page.objectid }}), "{{ child.title | default: page.title }}". Part of: {{ site.title }}, retrieved: {{ 'now' | date: '%d.%m.%Y' }}.</dd>
             <dt>Reference Link:</dt>
             <dd>{{ page.url | absolute_url }}#{{ child.objectid }}</dd>
         </dl>

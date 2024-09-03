@@ -5,7 +5,7 @@ creator,Creator,,,DCTERMS.creator,creator
 date,Year of Construction,true,,DCTERMS.date,dateCreated
 entry_date,Collection Item created in,,,DCTERMS.date,dateCreated
 description,Object Description,,,DCTERMS.description,description
-space_syntax,Spatial Context Description,,,DCTERMS.description,description
+space_syntax,Spatial Context,,,DCTERMS.description,description
 subject,Tags,true,,DCTERMS.subject,keywords
 address,Address,,,DCTERMS.location,
 conservation_state,Conservation State,true,,,

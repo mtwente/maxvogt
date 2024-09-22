@@ -58,12 +58,13 @@
               console.log('Swiss projection detected');
               proj4.defs(crsValue, "+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs");
               var {{ map_id }} = L.map('{{ map_id }}', {
-                  // Use LV95 (EPSG:2056) projection
+                  /* Use LV95 (EPSG:2056) projection */
                   crs: L.CRS.EPSG2056,
               }).setView(mapCenter, mapZoom);
 
               var mapLayer = L.tileLayer.swiss({
-                  layer: 'ch.swisstopo.pixelkarte-grau',
+                  format: 'png',
+                  layer: 'ch.swisstopo.swisstlm3d-karte-grau',
                   maxNativeZoom: 28
               });
               var satelliteLayer = L.tileLayer.swiss({
@@ -72,12 +73,12 @@
               });
 
               var baseMaps = {
-                  'Karte': mapLayer,
-                  'Satellit (Swissimage)': satelliteLayer,
+                  'Base Map': mapLayer,
+                  'Aerial Imagery': satelliteLayer,
               };
               var overlayMaps = {
 
-                  'Satellite Imagery (1965)': L.tileLayer.swiss({
+                  'Aerial Imagery (1965)': L.tileLayer.swiss({
                       format: 'jpeg',
                       layer: 'ch.swisstopo.swissimage-product',
                       maxNativeZoom: 28,
@@ -85,7 +86,7 @@
                       timestamp: '1965'
                   }),
 
-                  'Satellite Imagery (1975)': L.tileLayer.swiss({
+                  'Aerial Imagery (1975)': L.tileLayer.swiss({
                       format: 'jpeg',
                       layer: 'ch.swisstopo.swissimage-product',
                       maxNativeZoom: 28,
@@ -93,7 +94,7 @@
                       timestamp: '1975'
                   }),
 
-                  'Satellite Imagery (1985)': L.tileLayer.swiss({
+                  'Aerial Imagery (1985)': L.tileLayer.swiss({
                       format: 'jpeg',
                       layer: 'ch.swisstopo.swissimage-product',
                       maxNativeZoom: 28,
@@ -101,7 +102,7 @@
                       timestamp: '1985'
                   }),
 
-                  'Satellite Imagery (1995)': L.tileLayer.swiss({
+                  'Aerial Imagery (1995)': L.tileLayer.swiss({
                       format: 'jpeg',
                       layer: 'ch.swisstopo.swissimage-product',
                       maxNativeZoom: 28,
@@ -111,12 +112,12 @@
 
                   'Railway Tracks (2024)': L.tileLayer.swiss({
                       format: 'png',
-                      layer: 'ch.swisstopo.swisstlm3d-eisenbahnnetz	',
+                      layer: 'ch.swisstopo.swisstlm3d-eisenbahnnetz',
                       maxNativeZoom: 28,
                       opacity: 1,
                       timestamp: 'current'
                   }),
-                  'Kantonsgrenzen': L.tileLayer.swiss({
+                  'Cantonal Borders': L.tileLayer.swiss({
                       format: 'png',
                       layer: 'ch.swisstopo.swissboundaries3d-kanton-flaeche.fill',
                       maxNativeZoom: 28,

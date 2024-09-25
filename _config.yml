@@ -23,7 +23,7 @@ title: Max Vogt – Morphologies of Arriving
 tagline: Showcasing the Design Philosophy of Max Vogt's Railway Stations
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "<p>This platform showcases the Swiss railway stations designed by Max Vogt and provides analyses of their spatial properties from an urban design perspective.</p><p>The collection is currently being assembled. Research data and outputs are available in <a href='https://mtwente.github.io/maxvogt-analysis'>maxvogt-analysis</a> and as a <a href='https://doi.org/10.5281/zenodo.13837394'>poster</a>."
+description: "<p>This platform showcases the Swiss railway stations designed by Max Vogt and provides analyses of their spatial properties from an urban design perspective.</p><p>The collection is currently being assembled. Research data and outputs are available in <a href='https://mtwente.github.io/maxvogt-analysis' target='_blank'>maxvogt-analysis</a> and as a <a href='https://doi.org/10.5281/zenodo.13837394' target='_blank'>poster</a>."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: urban design;morphology;built heritage;Switzerland;railway stations;SBB;CFF;FFS
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name

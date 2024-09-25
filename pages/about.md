@@ -15,3 +15,10 @@ This collection of media files (photos, maps, videos, written documents) and geo
 Research Data Output is already available at [mtwente.github.io/maxvogt-analysis](https://mtwente.github.io/maxvogt-analysis/) resp. in the corresponding GitHub Repository.
 
 For more information on the project, see [Project Information](https://mtwente.github.io/maxvogt-analysis/docs/about.html) and the [abstract](https://mtwente.github.io/maxvogt-analysis/docs/abstract.html) for a poster about this collection. The poster itself is presented at *Spatial Humanities 2024* at Otto-Friedrich-Universität Bamberg and is [available on Zenodo](https://doi.org/10.5281/zenodo.13837394).
+
+The output of an extensive photo survey in early summer 2024 is available on [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Max_Vogt).
+
+Contact:
+
+- [Moritz Twente](mailto:moritz.twente@unibas.ch), University of Basel
+- [Luisa Omonsky](mailto:luisa.omonsky@tuwien.ac.at), Vienna University of Technology

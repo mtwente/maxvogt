@@ -1,11 +1,12 @@
 display_name,stub,dropdown_parent,external_link
 Collection,/browse.html,
-Tags,/subjects.html,
 Locations,/locations.html,
 Map,/map.html,
 Timeline,/timeline.html,
 Data,,
 Metadata,/data.html,Data
-Source Code,https://github.com/mtwente/maxvogt,Data,true
+Source Code Repository,https://github.com/mtwente/maxvogt,Data,true
+Analysis Repository,https://mtwente.github.io/maxvogt-analysis/,Data,true
+SpatHum2024 Poster,https://doi.org/10.5281/zenodo.13837394,Data,true
 Bibliography,https://www.zotero.org/groups/5400359/sbb-max-vogt/library,,true
 About,/about.html,

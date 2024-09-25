@@ -27,3 +27,26 @@
     background-color: rgba(162, 0, 19);
     color: white;
     }
+
+.navbar-brand {
+    width: 2rem !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white !important; /* Ensure the text color stays white on hover */
+    text-decoration: underline;
+    text-decoration-color: #EB0000;
+    text-decoration-thickness: 3px;
+}
+
+/*--
+.navbar a:hover {
+	/*-- color: white !important;
+	text-decoration: underline;
+	text-decoration-color: #EB0000;
+	text-decoration-thickness: 3px;
+} --*/

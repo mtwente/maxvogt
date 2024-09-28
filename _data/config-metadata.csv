@@ -1,13 +1,13 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
-building_type,Building Type,true,,,
-location,Location,true,,,contentLocation
+building_type,Building Type,true,,DCTerms.subject,keywords
+location,Location,true,,DCTerms.location,addressLocality
 creator,Creator,,,DCTERMS.creator,creator
 date,Year of Construction,true,,DCTERMS.date,dateCreated
 entry_date,Collection Item created in,,,DCTERMS.date,dateCreated
 description,Object Description,,,DCTERMS.description,description
 space_syntax,Spatial Context,,,DCTERMS.description,description
 subject,Tags,true,,DCTERMS.subject,keywords
-address,Address,,,DCTERMS.location,
+address,Address,,,DCTERMS.location,PostalAddress
 conservation_state,Conservation State,true,,,
 bibliography,Object Bibliography,,true,,
 source,Source,,,,

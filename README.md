@@ -1,6 +1,6 @@
 # maxvogt
 
-The open-source code of the digital collection for research data on railway infrastructure designed by Swiss architect Max Vogt.
+Open-source code of the digital collection of railway infrastructure designed by Swiss architect Max Vogt, including a catalogue of works and morphological analyses of the buildings' spatial contexts. 
 
 [![GitHub issues](https://img.shields.io/github/issues/mtwente/maxvogt.svg)](https://github.com/mtwente/maxvogt/issues)
 [![GitHub forks](https://img.shields.io/github/forks/mtwente/maxvogt.svg)](https://github.com/mtwente/maxvogt/network)
@@ -10,15 +10,15 @@ The open-source code of the digital collection for research data on railway infr
 
 ## Overview
 
-Welcome to the *maxvogt* collection repository, a 2024 research project by [Moritz Twente](https://mtwente.github.io/maxvogt-analysis/docs/about.html#people) (University of Basel) and [Luisa Omonsky](https://mtwente.github.io/maxvogt-analysis/docs/about.html#people) (Vienna University of Technology). The authors analyse buildings and other built structures designed by SBB architect Max Vogt from an urban design perspective, taking into account the buildings’ placements in the built environment. In addition to this spatio-morphological analysis, another result of the project is an extensive survey of more than a hundred built structures that were designed by and/or under the supervision of Max Vogt during his time at SBB’s Zurich construction division. Combining different catalogues of works and linking additional sources to them, the authors present a novel online database built SBB heritage.
+The *maxvogt* collection repository, a 2024 research project, is developed by [Moritz Twente](https://www.github.com/mtwente) (University of Basel) and [Luisa Omonsky](https://mtwente.github.io/maxvogt-analysis/docs/about.html#people) (Vienna University of Technology). The authors analyse buildings and other built structures designed by SBB (Swiss Federal Railways) architect Max Vogt from an urban design perspective, taking into account the buildings’ placements in the built environment. In addition to this morphological analysis, another result of the project is a comprehensive inventory of more than a hundred buildings and smaller structures that were designed by (or under the supervision of) Max Vogt during his time at SBB’s Zurich construction division. Combining different catalogues of works and linking additional sources to the result, the authors present a novel online database of built SBB heritage.
 
-This project repository is the open-source code of the digital platform for research data output of the maxvogt project. It is a static website built with [CollectionBuilder-CSV](https://collectionbuilder.github.io/) and hosted on [GitHub Pages](https://pages.github.com/). Data created for this project by the authors is mainly hosted at [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Max_Vogt), with additional geodata and python scripts available on [GitHub](https://mtwente.github.io/maxvogt-analysis/). 
+This project repository is the open-source code of the digital platform for research data output of the *maxvogt* project. It is a static website built with [CollectionBuilder-CSV](https://collectionbuilder.github.io/) and hosted on [GitHub Pages](https://pages.github.com/). Data created for this project by the authors is mainly hosted at [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Max_Vogt), with additional geodata and python scripts available in a separate [GitHub repository](https://mtwente.github.io/maxvogt-analysis/).
 
 ## Key Features
 
 - **Fast Static Website**: Built with CollectionBuilder-CSV using open source static site generator [Jekyll](https://jekyllrb.com/) and a modern static web stack.
 - **Explorative Access to Metadata**: Interactive features for exploring collection metadata such as maps, a timeline, filtering and comprehensive annotation.
-- **Integration of External Resources**: Collection items include photographic records and maps produced by Moritz Twente and Luisa Omonsky. Additionally, records from the archives of [SBB Historic](https://www.sbbhistoric.ch/sammlungen-archive), from Wikimedia Commons and other available sources are integrated where feasible. Bibliographic information is available for all objects via linking to a [Zotero group library](https://www.zotero.org/groups/5400359/sbb-max-vogt/library).
+- **Integration of External Resources**: Collection items include photographic records and maps produced by Moritz Twente and Luisa Omonsky. Additionally, records from the archives of [SBB Historic](https://www.sbbhistoric.ch/sammlungen-archive), from Wikimedia Commons and other available sources are integrated where feasible. Bibliographic information is available for all objects via links to a [Zotero group library](https://www.zotero.org/groups/5400359/sbb-max-vogt/library).
 - **Accessibility-Focused Design**: Ensuring inclusivity for all users by complying with WCAG standards and observing neurodiversity design guidelines. <!-- More at our [accessibility statement](https://stadtgeschichtebasel.ch/barrierefreiheitserklaerung/). -->
 
 ### CollectionBuilder
@@ -111,8 +111,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors and acknowledgment
 
-- **Moritz Twente** - [mtwente](https://github.com/mtwente)
-– **Luisa Omonsky** – [omonsgit](https://github.com/omonsgit)
+- **Moritz Twente** – [mtwente](https://github.com/mtwente)
+- **Luisa Omonsky** – [omonsgit](https://github.com/omonsgit)
 
 [CollectionBuilder](https://collectionbuilder.github.io/) is developed by Peter Williamson, Devin Becker and Olivia Wikle. This CollectionBuilder instance makes use of some features developed at [Stadt.Geschichte.Basel](https://github.com/Stadt-Geschichte-Basel/forschung.stadtgeschichtebasel.ch) by [Moritz Mähr](https://github.com/maehr), [Nico Görlich](https://github.com/koilebeit) and [Moritz Twente](https://github.com/mtwente).
 

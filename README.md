@@ -42,30 +42,34 @@ classDiagram
     class structure {
         id (bu001)
         title
-        [subject;subject]
-        description
-        temporal
-        [isPartOf;isPartOf] (Data DOIs)
+        date (year of construction)
+        [relation] (external links to OSM, SBB, )
+        address
+        object description
+        spatial context description
+        [tag;tag]
+        [building type]
+        conservation state
+        object bibliography (link to Zotero)
+        location (municipality)
+        latitude
+        longitude
     }
-    class object {
+    class item {
         id (bu001001)
         title
-        [subject;subject] (keywords from GenderOpen Index)
-        description
-        [creator] (incl. link to Wikidata)
-        [publisher] (incl. link to Wikidata)
-        date
-        temporal
+        [creator] (incl. link to external database)
+        date (year of content creation)
+        object description
+        [tag;tag]
+        [source] (Source and catalogue link)
         type
         format
-        extent
-        [source] (Source and catalogue link)
         language (ISO 639-2 code)
-        [relation] (internal links to other items, link to GitHub, further information)
         rights
         license
     }
-    structure "n" --> "m" object
+    structure "n" --> "m" item
 ```
 
 ## Installation
